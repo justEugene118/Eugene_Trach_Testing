@@ -1,0 +1,22 @@
+{
+  "name": "selenium-homework",
+  "version": "1.0.0",
+  "description": "Selenium testing homework task",
+  "main": "index.js",
+  "scripts": {
+    "test-firefox": "wdio wdio.conf.firefox.js",
+    "test-chrome": "wdio wdio.conf.chrome.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.0.7",
+    "@wdio/local-runner": "^8.0.7",
+    "@wdio/mocha-framework": "^8.0.7",
+    "@wdio/spec-reporter": "^8.0.7",
+    "chromedriver": "^108.0.0",
+    "geckodriver": "^3.2.0",
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-geckodriver-service": "^4.0.0"
+  }
+}
