@@ -4,7 +4,8 @@ const dropboxV2Api = require('dropbox-v2-api');
 const fs = require('fs')
 
 const dropbox = dropboxV2Api.authenticate({
-    token: 'sl.BUxpfW73hHRsLOXRVnCq-BWpzZvx-qK7IvDXGRIX3VhBZdoeIvcRkbrxWvMz7TLsDrGBJy4fyUcAndCi426YtjWFnGuFi_dSm7r5i2UtlQ_9y1-CTHe9ayGlatmycYL7GUWRdmI6E0VU'
+    // Your token here
+    token: ''
 });
 
 export const UploadFile = (file_dir: string, file_name: string, dbx_dir: string): Promise<boolean> => {

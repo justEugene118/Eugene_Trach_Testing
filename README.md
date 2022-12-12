@@ -4,8 +4,9 @@ In this homework I am uploading [test.txt](test_files/test.txt) file to dropbox,
 
 Steps to start a project:
 1. After cloning a repository WebAPI branch run `npm i`, which will download all the missing packages
-2. Run `tsc`, to create .js files of .ts
-3. Run `npm test` to run a WebAPI tests
+2. inside [index.ts](/index.ts) file change `token:` to your oun token
+3. Run `tsc`, to create .js files of .ts
+4. Run `npm test` to run a WebAPI tests
 
 
 Stack used in this homework:
